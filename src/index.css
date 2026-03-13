@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
@@ -15,5 +14,6 @@
 }
 
 @theme {
-
+  --font-Newsreader: 'Newsreader', serif;
+  --font-family: 'Newsreader', serif;
 }

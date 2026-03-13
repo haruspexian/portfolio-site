@@ -1,5 +1,6 @@
 import Fragment from "react";
 
+
 export default function LandingPage(){
     return( 
         <>
@@ -21,8 +22,8 @@ function MainPage(){
     return(
         <div className="flex flex-col items-center justify-center h-screen bg-gray-700">
             <h1 className="text-5xl font-bold mb-4">Welcome to My Portfolio</h1>
-            <p className="text-xl text-gray-700 mb-8">Discover my projects and skills</p>
-            <button className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300">View Projects</button>
+            <p className="text-xl text-gray-900 mb-8">Discover my projects and skills</p>
+            <button className="px-6 py-3 bg-blue-600 text-black rounded-lg hover:bg-blue-700 transition duration-300">View Projects</button>
         </div>
     )
 }
